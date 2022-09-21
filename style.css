@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: green;
+    font-family: 'Rubik', sans-serif;}
+
+.block1{
+    width: 100%;
+    height: 700px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(120, 82%, 33%, 0.452), hsla(0, 0%, 0%, 0.452)), url(./img/spinetta5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title_flaco{
+    line-height: 70px;
+    margin-right: 130px;
+    color: pink;
+}
+
+nav {
+    text-decoration: none;
+    margin-right: 270px;
+    width: 200px;
+    height: 200px;
+}
+.nav__ul{
+    list-style: none;
+    height: 200px;
+}
+.nav__li{
+    height: 30px;
+}
+.nav__link{
+    text-decoration: none;
+    color: pink;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.nav__link:hover{
+    color: black;
+}
+
+audio{
+    margin-right: 150px;
+    border: none;
+    text-decoration: none;
+}
+
+#button-up{
+    width: 50px;
+    height: 50px;
+    background-color: green ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+#button-up:hover{
+    background-color: pink;
+}
+
+.block2{
+    height: 900px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(120, 82%, 33%, 0.5), hsla(0, 0%, 0%, 0.5)), url(./img/spinetta\ 2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.bio{
+    height: 700px;
+    width: 50%;
+}
+.bio__title{
+    color: pink;
+    font-size: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.bio__text{
+    color: pink;
+    font-size: 20px;
+}
+.video_flaco{
+    height: 300px;
+}
+
+
+.block3{
+    height: 1450px;
+    width: 100%;
+    display: inline-flex;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(120, 82%, 33%, 0.5), hsla(0, 0%, 0%, 0.5)), url(./img/spinetta8.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bandas{
+    height: 1400px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bandas__title{
+    color: pink;
+    font-size: 50px;
+    margin-bottom: 35px;
+    margin-top: 45px;
+    text-align: center;
+}
+.bandas__text{
+    color: pink;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.discos{
+    height: 1400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discos__title{
+    color: pink;
+    font-size: 50px;
+}
+.discos__list{
+    margin-top: 60px;
+    font-size: 25px;
+    list-style: none;
+}
+.discos__link{
+    color: pink;
+    text-decoration: none;
+}
+.discos__link :hover{
+    background-color: hsla(120, 82%, 33%, 0.5);
+}
+.discos__item{
+    width: 400px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.block4{
+    height: 900px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(120, 82%, 33%, 0.5), hsla(0, 0%, 0%, 0.5)), url(./img/spinetta7.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.libro__photo{
+    height: 500px;
+    width: 400px;
+}
+
+.button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 0 30px;
+    color: black;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: hsla(120, 82%, 33%, 0.5);
+    transition: .3s ease all;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color:pink;
+}
+
+.libro__text{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.libro__title{
+    color: pink;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.libro__parrafo{
+    color: pink;
+    display: flex;
+    height: 650px;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.libro__parrafo-firma{
+    margin-left: 370px;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.block5{
+    height: 900px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(120, 82%, 33%, 0.5), hsla(0, 0%, 0%, 0.5)), url(./img/spinetta\ 3.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.gracias__title{
+    color: pink;
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+.gracias__cite{
+    color: pink;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(120, 80%, 22%, 0.452), hsla(0, 0%, 0%, 0.452)), url(); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.icon{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.icon__g{
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    transition: .3s ease all;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+.icon__g:hover{
+    color:pink;
+}
+
+
